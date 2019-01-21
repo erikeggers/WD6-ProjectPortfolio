@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background: #e2e1e0;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+form {
+  padding: 10px;
+}
+label {
+  display: block;
+}
+input {
+  padding: 12px 10px;
+  font-size: 18px;
+}
+a {
+  color:rgb(34, 215, 40); 
+}
+p {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: rgb(34, 215, 40);
+  border: none;
+  font-size: 18px;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.gradeGroup {
+  padding: 2rem;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin: 1rem;
+  width: 180px;
+}
